@@ -1,253 +1,313 @@
-#h.house 
-	.h-lights
-		.h-light
-		.h-light
-		.h-light
-		.h-light
-		.h-light
-		.h-light
-
-	.h-shadow
-	//---------------------
-	.alt
-		.alt__front.face 
-		.alt__back.face 
-		.alt__right.face 
-		.alt__left.face 
-		.alt__top.face 
-			.light
-			.light
-			.light
-			.light
-			.light
-			.light
-			.light
-			.light
-			.light
-		.alt__bottom.face 
-	.alb
-		.alb__front.face 
-		.alb__back.face 
-		.alb__right.face 
-		.alb__left.face 
-		.alb__top.face 
-		.alb__bottom.face 
-	.arb
-		.arb__front.face 
-		.arb__back.face 
-		.arb__right.face 
-		.arb__left.face 
-		.arb__top.face 
-		.arb__bottom.face 
-	//---------------------
-	.blt
-		.blt__front.face 
-		.blt__back.face 
-		.blt__right.face 
-		.blt__left.face 
-		.blt__top.face 
-		.blt__bottom.face 
-	.blt2
-		.blt2__front.face 
-		.blt2__back.face 
-		.blt2__right.face 
-		.blt2__left.face 
-		.blt2__top.face 
-		.blt2__bottom.face 
-	.blb
-		.blb__front.face 
-		.blb__back.face 
-		.blb__right.face 
-		.blb__left.face 
-		.blb__top.face 
-		.blb__bottom.face 
-	.blb2
-		.blb2__front.face 
-		.blb2__back.face 
-		.blb2__right.face 
-		.blb2__left.face 
-		.blb2__top.face 
-		.blb2__bottom.face 
-	//---------------------
-	.puerta-c
-		.puerta
-			.puerta__front.face 
-			.puerta__back.face 
-			.puerta__right.face 
-			.puerta__left.face 
-			.puerta__top.face 
-			.puerta__bottom.face 
-		.puerta-l
-			.puerta-l__front.face 
-			.puerta-l__back.face 
-			.puerta-l__right.face 
-			.puerta-l__left.face 
-			.puerta-l__top.face 
-			.puerta-l__bottom.face 
-		.puerta-r
-			.puerta-r__front.face 
-			.puerta-r__back.face 
-			.puerta-r__right.face 
-			.puerta-r__left.face 
-			.puerta-r__top.face 
-			.puerta-r__bottom.face 
-		.puerta-t
-			.puerta-t__front.face 
-			.puerta-t__back.face 
-			.puerta-t__right.face 
-			.puerta-t__left.face 
-			.puerta-t__top.face 
-			.puerta-t__bottom.face 
-	.cuadro-l
-		.cuadro-l__front.face 
-		.cuadro-l__back.face 
-		.cuadro-l__right.face 
-		.cuadro-l__left.face 
-		.cuadro-l__top.face 
-		.cuadro-l__bottom.face 
-	.cuadro-r
-		.cuadro-r__front.face 
-		.cuadro-r__back.face 
-		.cuadro-r__right.face 
-		.cuadro-r__left.face 
-		.cuadro-r__top.face 
-		.cuadro-r__bottom.face 
-	.librero
-		.librero__front.face 
-		.librero__back.face 
-		.librero__right.face 
-		.librero__left.face 
-		.librero__top.face 
-		.librero__bottom.face 
-	.libros 
-		- let lb = 0;
-		while lb < 6    
-			.libro
-				.libro__front.face 
-				.libro__back.face 
-				.libro__right.face 
-				.libro__left.face 
-				.libro__top.face 
-				.libro__bottom.face 
-			- lb++;
-	.fotos 
-		- let ft = 0;
-		while ft < 2    
-			.foto
-				.foto__front.face 
-				.foto__back.face 
-				.foto__right.face 
-				.foto__left.face 
-				.foto__top.face 
-				.foto__bottom.face 
-			- ft++;
-	.cajas 
-		- let cj = 0;
-		while cj < 3    
-			.caja
-				.caja__front.face 
-				.caja__back.face 
-				.caja__right.face 
-				.caja__left.face 
-				.caja__top.face 
-				.caja__bottom.face 
-			- cj++;
-	.tv
-		.tv__front.face 
-		.tv__back.face 
-		.tv__right.face 
-		.tv__left.face 
-		.tv__top.face 
-		.tv__bottom.face 
-	.repisa-t
-		.repisa-t__front.face 
-		.repisa-t__back.face 
-		.repisa-t__right.face 
-		.repisa-t__left.face 
-		.repisa-t__top.face 
-		.repisa-t__bottom.face 
-	.repisa-b
-		.repisa-b__front.face 
-		.repisa-b__back.face 
-		.repisa-b__right.face 
-		.repisa-b__left.face 
-		.repisa-b__top.face 
-		.repisa-b__bottom.face 
-	.bocina-l
-		.bocina-l__front.face 
-		.bocina-l__back.face 
-		.bocina-l__right.face 
-		.bocina-l__left.face 
-		.bocina-l__top.face 
-		.bocina-l__bottom.face 
-	.bocina-r
-		.bocina-r__front.face 
-		.bocina-r__back.face 
-		.bocina-r__right.face 
-		.bocina-r__left.face 
-		.bocina-r__top.face 
-		.bocina-r__bottom.face 
-	.muro
-		.muro__front.face 
-		.muro__back.face 
-		.muro__right.face 
-		.muro__left.face 
-		.muro__top.face 
-		.muro__bottom.face 
-	.sillon-c
-		.sillon-b
-			.sillon-b__front.face 
-			.sillon-b__back.face 
-			.sillon-b__right.face 
-			.sillon-b__left.face 
-			.sillon-b__top.face 
-			.sillon-b__bottom.face 
-		.sillon-t
-			.sillon-t__front.face 
-			.sillon-t__back.face 
-			.sillon-t__right.face 
-			.sillon-t__left.face 
-			.sillon-t__top.face 
-			.sillon-t__bottom.face 
-		.sillon-l
-			.sillon-l__front.face 
-			.sillon-l__back.face 
-			.sillon-l__right.face 
-			.sillon-l__left.face 
-			.sillon-l__top.face 
-			.sillon-l__bottom.face 
-		.sillon-r
-			.sillon-r__front.face 
-			.sillon-r__back.face 
-			.sillon-r__right.face 
-			.sillon-r__left.face 
-			.sillon-r__top.face 
-			.sillon-r__bottom.face 
-	.mesa-c
-		.mesa
-			.mesa__front.face 
-			.mesa__back.face 
-			.mesa__right.face 
-			.mesa__left.face 
-			.mesa__top.face 
-			.mesa__bottom.face 
-
-		- let np = 0;
-		while np < 4        
-			.mesa-p
-				.mesa-p__front.face 
-				.mesa-p__back.face 
-				.mesa-p__right.face 
-				.mesa-p__left.face 
-				.mesa-p__top.face 
-				.mesa-p__bottom.face 
-			- np++;
-
-		.mesa-shadow
-	.tablet
-		.tablet__front.face 
-		.tablet__back.face 
-		.tablet__right.face 
-		.tablet__left.face 
-		.tablet__top.face 
-		.tablet__bottom.face
+<div class="house" id="h">
+    <div class="h-lights">
+        <div class="h-light"></div>
+        <div class="h-light"></div>
+        <div class="h-light"></div>
+        <div class="h-light"></div>
+        <div class="h-light"></div>
+        <div class="h-light"></div>
+    </div>
+    <div class="h-shadow"></div>
+    <!-- --------------------- -->
+    <div class="alt">
+        <div class="alt__front face"></div>
+        <div class="alt__back face"></div>
+        <div class="alt__right face"></div>
+        <div class="alt__left face"></div>
+        <div class="alt__top face">
+            <div class="light"></div>
+            <div class="light"></div>
+            <div class="light"></div>
+            <div class="light"></div>
+            <div class="light"></div>
+            <div class="light"></div>
+            <div class="light"></div>
+            <div class="light"></div>
+            <div class="light"></div>
+        </div>
+        <div class="alt__bottom face"></div>
+    </div>
+    <div class="alb">
+        <div class="alb__front face"></div>
+        <div class="alb__back face"></div>
+        <div class="alb__right face"></div>
+        <div class="alb__left face"></div>
+        <div class="alb__top face"></div>
+        <div class="alb__bottom face"></div>
+    </div>
+    <div class="arb">
+        <div class="arb__front face"></div>
+        <div class="arb__back face"></div>
+        <div class="arb__right face"></div>
+        <div class="arb__left face"></div>
+        <div class="arb__top face"></div>
+        <div class="arb__bottom face"></div>
+    </div>
+    <!-- --------------------- -->
+    <div class="blt">
+        <div class="blt__front face"></div>
+        <div class="blt__back face"></div>
+        <div class="blt__right face"></div>
+        <div class="blt__left face"></div>
+        <div class="blt__top face"></div>
+        <div class="blt__bottom face"></div>
+    </div>
+    <div class="blt2">
+        <div class="blt2__front face"></div>
+        <div class="blt2__back face"></div>
+        <div class="blt2__right face"></div>
+        <div class="blt2__left face"></div>
+        <div class="blt2__top face"></div>
+        <div class="blt2__bottom face"></div>
+    </div>
+    <div class="blb">
+        <div class="blb__front face"></div>
+        <div class="blb__back face"></div>
+        <div class="blb__right face"></div>
+        <div class="blb__left face"></div>
+        <div class="blb__top face"></div>
+        <div class="blb__bottom face"></div>
+    </div>
+    <div class="blb2">
+        <div class="blb2__front face"></div>
+        <div class="blb2__back face"></div>
+        <div class="blb2__right face"></div>
+        <div class="blb2__left face"></div>
+        <div class="blb2__top face"></div>
+        <div class="blb2__bottom face"></div>
+    </div>
+    <!-- --------------------- -->
+    <div class="puerta-c">
+        <div class="puerta">
+            <div class="puerta__front face"></div>
+            <div class="puerta__back face"></div>
+            <div class="puerta__right face"></div>
+            <div class="puerta__left face"></div>
+            <div class="puerta__top face"></div>
+            <div class="puerta__bottom face"></div>
+        </div>
+        <div class="puerta-l">
+            <div class="puerta-l__front face"></div>
+            <div class="puerta-l__back face"></div>
+            <div class="puerta-l__right face"></div>
+            <div class="puerta-l__left face"></div>
+            <div class="puerta-l__top face"></div>
+            <div class="puerta-l__bottom face"></div>
+        </div>
+        <div class="puerta-r">
+            <div class="puerta-r__front face"></div>
+            <div class="puerta-r__back face"></div>
+            <div class="puerta-r__right face"></div>
+            <div class="puerta-r__left face"></div>
+            <div class="puerta-r__top face"></div>
+            <div class="puerta-r__bottom face"></div>
+        </div>
+        <div class="puerta-t">
+            <div class="puerta-t__front face"></div>
+            <div class="puerta-t__back face"></div>
+            <div class="puerta-t__right face"></div>
+            <div class="puerta-t__left face"></div>
+            <div class="puerta-t__top face"></div>
+            <div class="puerta-t__bottom face"></div>
+        </div>
+    </div>
+    <div class="cuadro-l">
+        <div class="cuadro-l__front face"></div>
+        <div class="cuadro-l__back face"></div>
+        <div class="cuadro-l__right face"></div>
+        <div class="cuadro-l__left face"></div>
+        <div class="cuadro-l__top face"></div>
+        <div class="cuadro-l__bottom face"></div>
+    </div>
+    <div class="cuadro-r">
+        <div class="cuadro-r__front face"></div>
+        <div class="cuadro-r__back face"></div>
+        <div class="cuadro-r__right face"></div>
+        <div class="cuadro-r__left face"></div>
+        <div class="cuadro-r__top face"></div>
+        <div class="cuadro-r__bottom face"></div>
+    </div>
+    <div class="librero">
+        <div class="librero__front face"></div>
+        <div class="librero__back face"></div>
+        <div class="librero__right face"></div>
+        <div class="librero__left face"></div>
+        <div class="librero__top face"></div>
+        <div class="librero__bottom face"></div>
+    </div>
+    <div class="libros">
+        <!-- JavaScript for loop -->
+        <script>
+            let lb = 0;
+            while (lb < 6) {
+                document.write(`
+                    <div class="libro">
+                        <div class="libro__front face"></div>
+                        <div class="libro__back face"></div>
+                        <div class="libro__right face"></div>
+                        <div class="libro__left face"></div>
+                        <div class="libro__top face"></div>
+                        <div class="libro__bottom face"></div>
+                    </div>
+                `);
+                lb++;
+            }
+        </script>
+    </div>
+    <div class="fotos">
+        <!-- JavaScript for loop -->
+        <script>
+            let ft = 0;
+            while (ft < 2) {
+                document.write(`
+                    <div class="foto">
+                        <div class="foto__front face"></div>
+                        <div class="foto__back face"></div>
+                        <div class="foto__right face"></div>
+                        <div class="foto__left face"></div>
+                        <div class="foto__top face"></div>
+                        <div class="foto__bottom face"></div>
+                    </div>
+                `);
+                ft++;
+            }
+        </script>
+    </div>
+    <div class="cajas">
+        <!-- JavaScript for loop -->
+        <script>
+            let cj = 0;
+            while (cj < 3) {
+                document.write(`
+                    <div class="caja">
+                        <div class="caja__front face"></div>
+                        <div class="caja__back face"></div>
+                        <div class="caja__right face"></div>
+                        <div class="caja__left face"></div>
+                        <div class="caja__top face"></div>
+                        <div class="caja__bottom face"></div>
+                    </div>
+                `);
+                cj++;
+            }
+        </script>
+    </div>
+    <div class="tv">
+        <div class="tv__front face"></div>
+        <div class="tv__back face"></div>
+        <div class="tv__right face"></div>
+        <div class="tv__left face"></div>
+        <div class="tv__top face"></div>
+        <div class="tv__bottom face"></div>
+    </div>
+    <div class="repisa-t">
+        <div class="repisa-t__front face"></div>
+        <div class="repisa-t__back face"></div>
+        <div class="repisa-t__right face"></div>
+        <div class="repisa-t__left face"></div>
+        <div class="repisa-t__top face"></div>
+        <div class="repisa-t__bottom face"></div>
+    </div>
+    <div class="repisa-b">
+        <div class="repisa-b__front face"></div>
+        <div class="repisa-b__back face"></div>
+        <div class="repisa-b__right face"></div>
+        <div class="repisa-b__left face"></div>
+        <div class="repisa-b__top face"></div>
+        <div class="repisa-b__bottom face"></div>
+    </div>
+    <div class="bocina-l">
+        <div class="bocina-l__front face"></div>
+        <div class="bocina-l__back face"></div>
+        <div class="bocina-l__right face"></div>
+        <div class="bocina-l__left face"></div>
+        <div class="bocina-l__top face"></div>
+        <div class="bocina-l__bottom face"></div>
+    </div>
+    <div class="bocina-r">
+        <div class="bocina-r__front face"></div>
+        <div class="bocina-r__back face"></div>
+        <div class="bocina-r__right face"></div>
+        <div class="bocina-r__left face"></div>
+        <div class="bocina-r__top face"></div>
+        <div class="bocina-r__bottom face"></div>
+    </div>
+    <div class="muro">
+        <div class="muro__front face"></div>
+        <div class="muro__back face"></div>
+        <div class="muro__right face"></div>
+        <div class="muro__left face"></div>
+        <div class="muro__top face"></div>
+        <div class="muro__bottom face"></div>
+    </div>
+    <div class="sillon-c">
+        <div class="sillon-b">
+            <div class="sillon-b__front face"></div>
+            <div class="sillon-b__back face"></div>
+            <div class="sillon-b__right face"></div>
+            <div class="sillon-b__left face"></div>
+            <div class="sillon-b__top face"></div>
+            <div class="sillon-b__bottom face"></div>
+        </div>
+        <div class="sillon-t">
+            <div class="sillon-t__front face"></div>
+            <div class="sillon-t__back face"></div>
+            <div class="sillon-t__right face"></div>
+            <div class="sillon-t__left face"></div>
+            <div class="sillon-t__top face"></div>
+            <div class="sillon-t__bottom face"></div>
+        </div>
+        <div class="sillon-l">
+            <div class="sillon-l__front face"></div>
+            <div class="sillon-l__back face"></div>
+            <div class="sillon-l__right face"></div>
+            <div class="sillon-l__left face"></div>
+            <div class="sillon-l__top face"></div>
+            <div class="sillon-l__bottom face"></div>
+        </div>
+        <div class="sillon-r">
+            <div class="sillon-r__front face"></div>
+            <div class="sillon-r__back face"></div>
+            <div class="sillon-r__right face"></div>
+            <div class="sillon-r__left face"></div>
+            <div class="sillon-r__top face"></div>
+            <div class="sillon-r__bottom face"></div>
+        </div>
+    </div>
+    <div class="mesa-c">
+        <div class="mesa">
+            <div class="mesa__front face"></div>
+            <div class="mesa__back face"></div>
+            <div class="mesa__right face"></div>
+            <div class="mesa__left face"></div>
+            <div class="mesa__top face"></div>
+            <div class="mesa__bottom face"></div>
+        </div>
+        <!-- JavaScript for loop -->
+        <script>
+            let np = 0;
+            while (np < 4) {
+                document.write(`
+                    <div class="mesa-p">
+                        <div class="mesa-p__front face"></div>
+                        <div class="mesa-p__back face"></div>
+                        <div class="mesa-p__right face"></div>
+                        <div class="mesa-p__left face"></div>
+                        <div class="mesa-p__top face"></div>
+                        <div class="mesa-p__bottom face"></div>
+                    </div>
+                `);
+                np++;
+            }
+        </script>
+        <div class="mesa-shadow"></div>
+    </div>
+    <div class="tablet">
+        <div class="tablet__front face"></div>
+        <div class="tablet__back face"></div>
+        <div class="tablet__right face"></div>
+        <div class="tablet__left face"></div>
+        <div class="tablet__top face"></div>
+        <div class="tablet__bottom face"></div>
+    </div>
+</div>
